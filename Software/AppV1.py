@@ -98,9 +98,22 @@ if selected=='Home':
     st.write('---')
     st.image(image4, use_column_width=True)
     st.write('### This Application is Currenclty in Building Process.')
-    st.write('- This is an **Experimental Version**')
-
-    st.write("""##### A system for monitoring emotional responses during mental health sessions has been developed using Python, OpenCV, Deepface, and Streamlit. This system allows for real-time detection and analysis of patient emotions during the session, providing valuable insights for mental health professionals. The combination of these advanced technologies enables accurate and efficient monitoring of patient emotional responses. Additionally, it is planned to integrate a spreadsheet system where the specialist can fill in patient data and the data obtained to return the corresponding spreadsheets to each patient with all the information obtained.""")
+    st.write('## 🚧 Work in Progress 🚧')
+    st.write('- Welcome to the **Experimental Version** of our application.')
+    
+    st.write("""##### We're building an innovative system that monitors emotional responses during mental health sessions. This system is powered by Python, OpenCV, Deepface, and Streamlit. It's designed to detect and analyze patient emotions in real-time during a session, offering invaluable insights for mental health professionals. Our advanced technology stack ensures accurate and efficient monitoring of emotional responses. We're also working on integrating a spreadsheet system for specialists to record patient data. The data collected will be used to generate personalized reports for each patient, providing a comprehensive overview of the information obtained.""")
+    
+    st.write('### 📚 Fast Facial Emotion Monitoring (FFEM)')
+    st.write("""Our application utilizes the FFEM package, a powerful tool developed for Facial Emotion Recognition (FER). FFEM employs sophisticated techniques and algorithms to detect and classify emotions from facial expressions. Here's a quick look at its main features:
+    
+    - **MonitorEmotion_From_Video**: This function accepts a video file or a webcam feed as input and performs FER. The results are saved to the specified output path.
+    
+    - **FaceEmotion_Detection**: This class is the heart of the FER process. It carries out face detection and emotion recognition using DeepFace and MediaPipe. The MonitorEmotion_From_Video function leverages this class for its operations.
+    
+    Designed with user-friendliness in mind, FFEM simplifies the complex task of FER, making it accessible and straightforward for users. Whether you're a researcher, a developer, or someone interested in FER, FFEM can be an invaluable tool for your projects.""")
+    
+    st.write('### ⏳ Coming Soon: Patient Information Section')
+    st.write('Stay tuned! We are currently developing the Patient Information section to enhance our application.')
 
 if selected=='Emotion Tracking':
     col1,col2,col3 = st.columns([3,6,3])
