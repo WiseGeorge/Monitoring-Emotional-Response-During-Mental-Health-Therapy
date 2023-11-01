@@ -103,8 +103,9 @@ if selected=='Home':
     st.write("""##### We're building an innovative system that monitors emotional responses during mental health sessions. This system is powered by Python, OpenCV, Deepface, and Streamlit. It's designed to detect and analyze patient emotions in real-time during a session, offering invaluable insights for mental health professionals. Our advanced technology stack ensures accurate and efficient monitoring of emotional responses. We're also working on integrating a spreadsheet system for specialists to record patient data. The data collected will be used to generate personalized reports for each patient, providing a comprehensive overview of the information obtained.""")
     
     st.write('### 📚 Fast Facial Emotion Monitoring (FFEM)')
-    st.write("""Our application utilizes the FFEM package, a powerful tool developed for Facial Emotion Recognition (FER). FFEM employs sophisticated techniques and algorithms to detect and classify emotions from facial expressions.
-    \nFFEM: https://pypi.org/project/FFEM/ \nDesigned with user-friendliness in mind, FFEM simplifies the complex task of FER, making it accessible and straightforward for users. Whether you're a researcher, a developer, or someone interested in FER, FFEM can be an invaluable tool for your projects.""")
+    st.write("""Our application utilizes the FFEM package, a powerful tool developed by the authors for Facial Emotion Recognition (FER). FFEM employs sophisticated techniques and algorithms to detect and classify emotions from facial expressions.
+    \nFFEM: https://pypi.org/project/FFEM/. 
+    \nDesigned with user-friendliness in mind, FFEM simplifies the complex task of FER, making it accessible and straightforward for users. Whether you're a researcher, a developer, or someone interested in FER, FFEM can be an invaluable tool for your projects.""")
     
     st.write('### ⏳ Coming Soon: Patient Information Section')
     st.write('Stay tuned! We are currently developing the Patient Information section to enhance our application.')
@@ -119,7 +120,7 @@ if selected=='Emotion Tracking':
         if VTT.get_emotions() is not None:
             st.write(VTT.get_emotions())
 
-if selected=='Patient Information <Soon>':
+if selected=='Patient Information (🛠️)':
     with st.sidebar:
         sp = st.selectbox('Patient Manager',['Personal Information','Analysis Results'])
     if sp == 'Personal Information':
