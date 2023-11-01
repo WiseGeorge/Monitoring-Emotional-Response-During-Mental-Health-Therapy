@@ -86,7 +86,7 @@ image4 = Image.open("Images/pro1.jpg")
 with st.sidebar:
     selected = option_menu(
         menu_title = "Menu",
-        options = ["Home","Emotion Tracking", "Patient Information","About"],
+        options = ["Home","Emotion Tracking", "Patient Information \n<Soon>","About"],
         icons = ["house","bar-chart-line-fill", "activity","window-dock","book", "envelope"],
         menu_icon = "image-alt ",
         default_index = 0,
@@ -116,6 +116,7 @@ if selected=='Patient Information':
     with st.sidebar:
         sp = st.selectbox('Patient Manager',['Personal Information','Analysis Results'])
     if sp == 'Personal Information':
+        ## 🛠️This Section is Under Construction.
         col1,col2,col3 = st.columns([3,6,3])
         with col2:
             with st.expander('Personal'):
