@@ -121,14 +121,16 @@ if selected=='Emotion Tracking':
             st.write(VTT.get_emotions())
 
 if selected=='Patient Information (🛠️)':
+    st.header('🛠️This Section is Under Construction.')
     with st.sidebar:
-        sp = st.selectbox('Patient Manager',['Personal Information','Analysis Results'])
+        sp = st.selectbox('Patient Manager',['Personal Information','Results Analysis'])
     if sp == 'Personal Information':
-        st.header('🛠️This Section is Under Construction.')
         col1,col2,col3 = st.columns([3,6,3])
         with col2:
             with st.expander('Personal'):
                 patient_form()
+    if sp == 'Results Analysis':
+        pass
 
 if selected == 'About':
     st.write("""
