@@ -104,11 +104,8 @@ if selected=='Home':
     st.write("""##### We're building an innovative system that monitors emotional responses during mental health sessions. This system is powered by Python, OpenCV, Deepface, and Streamlit. It's designed to detect and analyze patient emotions in real-time during a session, offering invaluable insights for mental health professionals. Our advanced technology stack ensures accurate and efficient monitoring of emotional responses. We're also working on integrating a spreadsheet system for specialists to record patient data. The data collected will be used to generate personalized reports for each patient, providing a comprehensive overview of the information obtained.""")
     
     st.write('### 📚 Fast Facial Emotion Monitoring (FFEM)')
-    st.write("""Our application utilizes the FFEM package, a powerful tool developed for Facial Emotion Recognition (FER). FFEM employs sophisticated techniques and algorithms to detect and classify emotions from facial expressions. Here's a quick look at its main features:
-    
-    - **MonitorEmotion_From_Video**: This function accepts a video file or a webcam feed as input and performs FER. The results are saved to the specified output path.
-    
-    - **FaceEmotion_Detection**: This class is the heart of the FER process. It carries out face detection and emotion recognition using DeepFace and MediaPipe. The MonitorEmotion_From_Video function leverages this class for its operations.
+    st.write("""Our application utilizes the FFEM package, a powerful tool developed for Facial Emotion Recognition (FER). FFEM employs sophisticated techniques and algorithms to detect and classify emotions from facial expressions.
+    FFEM: https://pypi.org/project/FFEM/
     
     Designed with user-friendliness in mind, FFEM simplifies the complex task of FER, making it accessible and straightforward for users. Whether you're a researcher, a developer, or someone interested in FER, FFEM can be an invaluable tool for your projects.""")
     
