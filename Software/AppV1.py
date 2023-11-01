@@ -97,7 +97,6 @@ if selected=='Home':
     st.title("**Monitoring Emotional Response During Mental Health Therapy**")
     st.write('---')
     st.image(image4, use_column_width=True)
-    st.write('### This Application is Currenclty in Building Process.')
     st.write('## 🚧 Work in Progress 🚧')
     st.write('- Welcome to the **Experimental Version** of our application.')
     
@@ -105,9 +104,7 @@ if selected=='Home':
     
     st.write('### 📚 Fast Facial Emotion Monitoring (FFEM)')
     st.write("""Our application utilizes the FFEM package, a powerful tool developed for Facial Emotion Recognition (FER). FFEM employs sophisticated techniques and algorithms to detect and classify emotions from facial expressions.
-    FFEM: https://pypi.org/project/FFEM/
-    
-    Designed with user-friendliness in mind, FFEM simplifies the complex task of FER, making it accessible and straightforward for users. Whether you're a researcher, a developer, or someone interested in FER, FFEM can be an invaluable tool for your projects.""")
+    \nFFEM: https://pypi.org/project/FFEM/ \nDesigned with user-friendliness in mind, FFEM simplifies the complex task of FER, making it accessible and straightforward for users. Whether you're a researcher, a developer, or someone interested in FER, FFEM can be an invaluable tool for your projects.""")
     
     st.write('### ⏳ Coming Soon: Patient Information Section')
     st.write('Stay tuned! We are currently developing the Patient Information section to enhance our application.')
