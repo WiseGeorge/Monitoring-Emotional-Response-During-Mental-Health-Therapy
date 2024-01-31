@@ -116,7 +116,7 @@ if selected=='Emotion Tracking':
         st.header("Webcam Live Feed")
         st.write("Click on start to use webcam and detect your face emotion")
         VTT = VT()
-        webrtc_streamer(key="example", video_transformer_factory=VT, video_html_attrs=VideoHTMLAttributes( autoPlay=True, controls=True, style={"width": "100%"}, muted=True ))
+        webrtc_streamer(key="example", video_transformer_factory=VT, video_html_attrs=VideoHTMLAttributes( autoPlay=True, controls=True, style={"width": "100%"} ))
         if VTT.get_emotions() is not None:
             st.write(VTT.get_emotions())
 
