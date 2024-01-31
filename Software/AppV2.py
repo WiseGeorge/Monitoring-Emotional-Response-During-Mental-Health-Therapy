@@ -125,10 +125,10 @@ def patient_form():
 # st.markdown(hide_menu_style, unsafe_allow_html=True)
 
 
-image1 = Image.open("Images/mental.jpg")
-image2 = Image.open("Images/brain.jpg")
-image3 = Image.open("Images/psi.png")
-image4 = Image.open("Images/pro1.jpg")
+image1 = Image.open("../Images/mental.jpg")
+image2 = Image.open("../Images/brain.jpg")
+image3 = Image.open("../Images/psi.png")
+image4 = Image.open("../Images/pro1.jpg")
 
 
 st.title("**Monitoring Emotional Response During Mental Health Therapy**")
@@ -218,7 +218,7 @@ if selected=='Emotion Tracking':
                     mode = stats.mode(my_array)
                     df = pd.DataFrame(emotionList)
                     
-                    df.to_json(f'PatientsTemporalData/emotion.json')
+                    df.to_json(f'../PatientsTemporalData/emotion.json')
 
                     # Time Management
                     cTime = time.time()
